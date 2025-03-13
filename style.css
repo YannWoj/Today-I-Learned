@@ -127,6 +127,10 @@ h1 {
    margin-right: 18px;
 }
 
+.hidden {
+   display: none !important;
+}
+
 /* FACT LIST */
 ul {
    list-style: none;
@@ -262,6 +266,10 @@ ul {
       flex-direction: column;
       gap: 0px;
    }
+   .btn-large {
+      font-size: 1rem;
+      padding: 1rem 26px 1rem;
+   }
 }
 
 @media (max-width: 460px) {
@@ -270,6 +278,10 @@ ul {
    }
    .fact-form input:first-child::placeholder {
       font-size: 1rem;
+   }
+   .btn-large {
+      font-size: 1rem;
+      padding: 12px 20px 12px;
    }
 }
 
