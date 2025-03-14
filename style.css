@@ -236,11 +236,15 @@ ul {
    .fact {
       flex-direction: column;
       gap: 12px;
-      align-items: flex-end;
+      align-items: flex-start;
    }
 
    .fact p {
       align-self: flex-start;
+   }
+
+   .source:link {
+      margin-left: 0;
    }
 }
 
